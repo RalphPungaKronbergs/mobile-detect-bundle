@@ -36,10 +36,10 @@
     "require": {
         "php": ">=8.2.9",
         "mobiledetect/mobiledetectlib": "^4.8",
-        "symfony/dependency-injection": "^7.1",
-        "symfony/event-dispatcher": "^7.1",
-        "symfony/framework-bundle": "^7.1",
-        "symfony/yaml": "^7.1",
+        "symfony/dependency-injection": ">=7.1",
+        "symfony/event-dispatcher": ">=7.1",
+        "symfony/framework-bundle": ">=7.1",
+        "symfony/yaml": ">=7.1",
         "twig/twig": "^3.14"
     },
     "require-dev": {
@@ -50,8 +50,8 @@
         "phpstan/phpstan": "^1.12",
         "phpunit/phpunit": "^11.4",
         "squizlabs/php_codesniffer": "^3.10",
-        "symfony/dotenv": "^7.1",
-        "symfony/phpunit-bridge": "^7.1"
+        "symfony/dotenv": ">=7.1",
+        "symfony/phpunit-bridge": ">=7.1"
     },
     "config": {
         "sort-packages": true,
